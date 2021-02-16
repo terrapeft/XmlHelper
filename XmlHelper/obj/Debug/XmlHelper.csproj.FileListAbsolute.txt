@@ -27,3 +27,4 @@ C:\YandexDisk\Git\XmlHelper\XmlHelper\obj\Debug\XmlHelper.csproj.GenerateResourc
 C:\YandexDisk\Git\XmlHelper\XmlHelper\obj\Debug\XmlHelper.csproj.CoreCompileInputs.cache
 C:\YandexDisk\Git\XmlHelper\XmlHelper\obj\Debug\XmlHelper.exe
 C:\YandexDisk\Git\XmlHelper\XmlHelper\obj\Debug\XmlHelper.pdb
+C:\YandexDisk\Git\XmlHelper\XmlHelper\obj\Debug\XmlHelper.csprojAssemblyReference.cache

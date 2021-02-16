@@ -19,8 +19,6 @@ namespace XmlHelper
         private TimeSpan upTimeSpan = TimeSpan.Zero;
         private DateTime lastPeriodStartTime = DateTime.Now;
 
-        private Process _shadowMateProcess;
-
         public Main()
         {
             InitializeComponent();
@@ -42,7 +40,7 @@ namespace XmlHelper
 
         private void StartShadowMate()
         {
-            _shadowMateProcess = Process.Start("XmlHelperShadowMate.exe");
+            Process.Start("XmlHelperShadowMate.exe");
         }
 
         private void Start()
@@ -123,8 +121,6 @@ namespace XmlHelper
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Stop();
-            _shadowMateProcess.CloseMainWindow();
-            _shadowMateProcess.Close();
         }
 
 
